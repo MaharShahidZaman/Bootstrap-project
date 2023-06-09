@@ -1,0 +1,50 @@
+body,
+html {
+    overflow-x: hidden;
+
+}
+#indicater{
+    width: 1.2vmin;
+    height: 1.2vmin;
+    border-radius: 100%;
+    background-color: rgb(233, 4, 4);
+    border: 2px solid white;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: rgb(233, 4, 4);
+    /* border-radius: 50%; */
+    color: red;
+}
+h1{
+font-family: 'Dancing Script', cursive;
+}
+#services{
+    background-color: rgb(244, 244, 244);
+}
+#our-team{
+    background-color: rgb(244, 244, 244);
+}
+#footer{
+    font-size: 25px;
+}
+@media screen and (max-width: 800px) {
+    #footer{
+        font-size: 15px;
+    }
+    
+}
+#carouselimg{
+    height: 90vmin;
+}
+#mynavbar{
+    background-color: #e74c3c;
+}
+.nav-link:hover{
+    background-color: rgb(179, 147, 19);
+    border-radius: 5px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
